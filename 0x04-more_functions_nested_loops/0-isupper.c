@@ -5,10 +5,9 @@
  * return: 1 if c is uppercase 0 if otherwise
  */
 
-int main(void)
+int _isupper(int c);
 {
 	char c;
-
 	c = 'A';
 	printf("%c: %d\n", c, _isupper(c));
 	c = 'a';
